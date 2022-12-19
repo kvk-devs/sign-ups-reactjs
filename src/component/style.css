@@ -1,0 +1,78 @@
+body{
+    background: #F6F0F0;
+}
+.form_bar_content{
+    position: relative;
+    width: 100%;
+    max-width: 1015px;
+    margin: auto;
+    height: 495px;
+}
+.form{
+    width: 100%;
+    max-width: 509px;
+    margin: auto;
+}
+.sign_up_title {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 61px;
+    color: #0C3010;
+    margin: 0;
+    text-align: center;
+}
+
+.input_label_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input_label_bar label {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #0C3010;
+    text-transform: uppercase;
+    margin: 30px 0 10px 0;
+}
+
+.input_label_bar input {
+    width: 505px;
+    height: 60px;
+    left: 447px;
+    top: 300px;
+    background: #D9D9D9;
+    border: none;
+    font-size: 20px;
+    padding: 0 10px;
+    outline: none;
+}
+
+.submit_btn {
+    width: 137px;
+    height: 35px;
+    left: 815px;
+    top: 780px;
+    background: #0C3010;
+    border-radius: 30px;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F6F0F0;
+    margin-top: 30px;
+}
+.form_footer_sub_btn_bar{
+    text-align: right;
+}
+.img_bar img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
